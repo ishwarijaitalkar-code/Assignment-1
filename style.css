@@ -1,0 +1,228 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+   
+     background-color :white;
+}
+
+nav{
+    background:#222;
+    padding:15px 8%;
+    position:sticky;
+    top:0;
+}
+
+.navList{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.navList div{
+    display:flex;
+    gap:20px;
+}
+
+.navMenu{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.navMenu:hover{
+    color:#00bcd4;
+}
+
+.socialIcons a{
+    font-size:22px;
+}
+
+#userInfo{
+    padding:60px 8%;
+}
+
+.usreInform{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.leftDiv,.rightDiv{
+    flex:1;
+    min-width:300px;
+}
+
+.leftDiv h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.leftDiv p{
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+button,.btn{
+    padding:10px 20px;
+    border:none;
+    background:#0077ff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover,.btn:hover{
+    background:#005ecc;
+}
+
+.rightDiv{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:5px 5px 10px rgba(0,0,0,.1);
+}
+
+.rightDiv img{
+    width:90%;
+    height:250px;
+    object-fit: contain;
+    border-radius:10px;
+}
+
+.contForm{
+    padding:60px 8%;
+    background:white;
+}
+
+.contForm h5{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.contactForm{
+    max-width:600px;
+    margin:auto;
+}
+
+.contactForm input,
+.contactForm textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.contactForm input[type="radio"]{
+    width:auto;
+    margin-right:5px;
+}
+
+pre{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.topArrow{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+}
+
+.topArrow a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:45px;
+    height:45px;
+    background:#13191e;
+    color:white;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+}
+
+@media(max-width:768px){
+    .usreInform{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .leftDiv h1{
+        font-size:36px;
+    }
+
+    .navList{
+        flex-direction:column;
+        gap:15px;
+    }
+}
+
+.projects{
+    background-color: #b4cbe7;
+    height: 90vh;
+    display: flex;
+    padding: 20px;
+    gap: 98px;
+    justify-content: space-around;
+
+}
+
+.projects img{
+    height: 300px;
+    width:340px;
+    border-radius: 20px;
+}
+clickbtn:hover{
+    color: orange;
+}
+
+.burgerKing,
+.weatherapp,
+.Portfolio{
+
+    color:black;
+    border-radius: 9%;
+    text-align: center;
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 16px;
+}
+
+.btnp{
+    color:#030304;
+    background-color: rgb(229, 40, 19);
+    margin: 10px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+.btnp a{
+    text-decoration: none;
+    color: black;
+}
